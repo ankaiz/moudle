@@ -1,0 +1,41 @@
+nav {
+  width: 100%;
+  background: #888;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  box-shadow: 5px 3px 3px #ccc;
+}
+
+ul li {
+  padding: 5px 10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-weight: lighter;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color ease-in-out .3s;
+}
+
+ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #999;
+}
+
+.inputSearch{  
+  text-align: right;
+}
+

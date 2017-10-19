@@ -1,0 +1,93 @@
+.background{
+    background: gray;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 2px 2px;    
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+
+section{
+    display: flex;
+}
+
+section .displayLeft{
+    margin: 10px 0;
+    flex: 1;
+    background: white;
+    width:100%;
+    border:2px solid black;
+    border-radius: 4px;
+}
+
+section .displayRight{
+    margin: 10px 0;
+    flex: 1;
+    border-right: 1px solid black;
+    border-radius: 4px;
+}
+div p{
+    margin: 3px 3px;
+    padding: 3px 3px;
+}
+
+div input{
+    margin: 4px 4px;
+    padding: 4px 4px;    
+}
+
+.login{        
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.join{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.forgetpw{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+div img{
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+div border{
+    
+}

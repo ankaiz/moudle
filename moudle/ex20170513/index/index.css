@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgroundPhoto{    
+    background: url("sea1.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-attachment: fixed;    
+}
+
+
+.all{
+    display: flex;
+}
+
+
+.CHNtitle{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top : 7%;
+    left : 40%;    
+    transition: all ease-in-out .4s;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.ENGtitle{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top : 15%;
+    left : 45%;
+    transition: all ease-in-out .4s;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.CHNtitle:hover{
+    border-color: gray;
+    color: gray;
+}
+
+.ENGtitle:hover{
+    border-color: gray;
+    color: gray;
+}
+
+
+
+.flex{
+display:flex}
+
+.bigword{
+font-size:50px;
+}
+
+.smallword{
+font-size:20px;
+}

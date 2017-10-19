@@ -1,0 +1,306 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.title{
+    height: 30px;
+    width: 100%;    
+    display: flex;
+    margin-left: 400px;
+}
+
+.titlebtnstyle{         
+    margin: 20px;
+}
+
+.stytle{
+    font-size: 15px;
+    border: 0px;
+    background-color: white;
+}
+
+.stytleHOME{
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.stytle a{    
+    transition: color ease-in-out .3s;
+}
+
+.stytle a:visited {
+    
+    text-decoration: none;
+}
+
+.stytle a:hover {
+    border: 2px solid black;
+}
+
+.mainpage{
+    margin-top:50px;
+    text-align: center;
+    background: url("wedding.jpg");  
+    background-size: 100%auto;    
+    height:100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.flower{
+    background: url("flower.jpg");
+    background-size: cover;    
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.maintitle{
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+}
+
+.subtitle{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+section {
+  display: flex;
+}
+
+section .leftDisplay {
+    background: url("aboutme.jpg");
+    flex: 1;
+    background-size: cover;
+    height: 100%;
+}
+
+section .rightDisplay {    
+  flex: 1;    
+}
+
+.abouttitle{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top:100px;
+}
+
+.dash{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.maindescribe{
+    word-break: break-all;
+    margin-left: 50px;
+    font-size: 10px;        
+}
+
+.picrow{
+    display: flex;
+}
+
+.pic1{
+    flex: 1;
+    background: url("pic1.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 300px;
+}
+
+.pic2{
+    flex: 1;
+    background: url("pic2.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 300px;
+}
+
+.pic3{
+    flex: 1;
+    background: url("pic3.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 300px;
+}
+
+.pic4{
+    flex: 1;
+    background: url("pic4.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 300px;
+}
+
+.mainpage2{
+    background: url("mainpage2.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;    
+    margin: 0px;
+    padding: 0px;
+    margin-top: -50px;
+}
+
+.word{    
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    color: white;        
+    margin-left: 350px;        
+}
+
+section .displayL{
+    flex:1;    
+    margin-top: 20px;
+
+}
+
+.displayLstyle{
+    margin-left: 350px;
+}
+
+section .displayR{
+    flex:1;
+    background: url("displayR.jpg");
+    background-size: cover;    
+    height: 100%;
+    
+}
+
+.talktitle{
+    font-size: 40px;        
+}
+
+.dashtalk{    
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.p2{
+    margin-top:-15px;
+}
+
+.p3{
+    margin-top:-15px;
+}
+
+.p4{
+    margin-top:-15px;
+}
+
+.contactName{    
+    margin-top:100px;    
+    height: 5%;
+    width: 90%;
+}
+
+.contactEmail{    
+    margin-top:5px;    
+    height: 5%;
+    width: 90%;
+}
+
+.contactSubject{          
+    margin-top:5px;    
+    height: 5%;
+    width: 90%;
+}
+
+.contactMessage{    
+    margin-top:5px;
+    height: 15%;
+    width: 90%;
+}
+
+.sendbtn{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width:100px ;    
+    border: 0px;
+    margin-top:5px;        
+    margin-left: 300px;
+}
+
+.bottom{
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+}
+
+.fixfb{    
+    position: fixed;    
+    margin-left: 80px;
+    margin-top: 250px;
+}
+
+.fixig{    
+    position: fixed;    
+    margin-left: 80px;
+    margin-top: 300px;
+}
+
+.fixsea{    
+    position: fixed;    
+    margin-left: 80px;
+    margin-top: 350px;
+}
+
+.fixtwi{    
+    position: fixed;    
+    margin-left: 80px;
+    margin-top: 400px;
+}
+
+
+.fb{
+    background: url("fb.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border: 0px;    
+}
+
+.twi{
+    background: url("twi.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+}
+
+.ig{
+    background: url("ig.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+}
+
+.sea{
+    background: url("sea.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;        
+}
+

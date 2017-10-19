@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.displayPhoto {
+  background: url("bike.jpg");
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.title {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  color: white;
+  font-weight: lighter;
+  border: 2px solid white;
+  padding: 5px 20px;
+  font-size: 50px;
+  transition: all ease-in-out .4s;
+}
+
+.title:hover {
+  border-color: gray;
+  color: gray;
+}
+
+section {
+  display: flex;
+}
+
+section .leftDisplay {
+  margin: 10px 0;
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.title2 {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 40px;
+  color: #008B8b;
+}
+
+section .rightDisplay {
+  margin: 10px 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #808000;
+}
+
+.second {
+  background: url("ww.jpg");
+  background-attachment: scroll;
+}

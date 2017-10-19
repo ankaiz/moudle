@@ -1,0 +1,92 @@
+.IMGbutton{
+    width : 500px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+}
+
+
+.border{
+    border: 2px solid black;
+}
+
+.option{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;    
+    padding: 2px 2px;
+    margin: 4px 4px;
+}
+ul li{        
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    font-weight: lighter;
+    color:green;
+}
+
+ul li a {
+  color: brown;
+  text-decoration: none;
+  transition: color ease-in-out .3s;
+}
+
+ul li a:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: gray;
+}
+
+hr .style-one {
+    size : 300;
+    width: 1;
+}
+
+section {
+  display: flex;
+}
+
+section .displayLeft{
+    position: absolute;    
+    margin: 5px 0;
+    flex: 1;    
+    border-right: 1px solid #ccc;    
+}
+
+section .displayRight{    
+    position: absolute;    
+    margin: 0;
+    padding: 0;    
+    display: flex;
+    flex: 1;
+    right: 0%;
+    margin: 20px 20px;
+    padding: 10px 30px;    
+}
+
+section .displayCenter{    
+    position: absolute;    
+    margin: 0;
+    padding: 0;    
+    display: flex;
+    flex: 1;
+    right: 40%;
+    margin: 10px 10px;
+    padding: 10px 30px;    
+    border-right: 2px solid green;
+}
+
+.cart{    
+    font-size: 30px;        
+}
+
+
+
+

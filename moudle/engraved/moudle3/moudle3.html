@@ -1,0 +1,160 @@
+<html>
+    <script type = "text/javascript" src="moudle3.js"></script>
+
+    <head>
+        <title>MOUDLE3</title>  
+        <link rel="stylesheet" type="text/css" href="moudle3.css">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">       
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </head>
+
+    <body>            
+        <div class="fixfb">
+            <button class="fb" onclick="alert(`facebook`)">   
+        </div>
+        <div class="fixig">         
+            <button class="ig" onclick="alert(`instagram`)">
+        </div>
+        <div class="fixsea">
+            <button class="sea" onclick="alert(`search`)">
+        </div>                
+        <div class="fixtwi">
+            <button class="twi" onclick="alert(`twitter`)">
+        </div>
+        </div>
+        </div>
+        <div class="title">                            
+                <div class="titlebtnstyle">
+                    <a><button class="stytleHOME" type="button">HOME</button></a>
+                </div>
+                <div class="titlebtnstyle">
+                    <button class="stytle" type="button"><a>ABOUT</a></button>
+                </div>
+                <div class="titlebtnstyle">
+                    <button class="stytle" type="button"><a>PORTFOLIO</a></button>
+                </div>
+                <div class="titlebtnstyle">
+                    <button class="stytle" type="button"><a>CONTACT</a></button>
+                </div>
+                <div class="titlebtnstyle">
+                    <button class="stytle" type="button"><a>CLIENT ALBUMS</a></button>
+                </div>                
+                <div class="titlebtnstyle">
+                    <button class="stytle" type="button"><a>BOOK ONLINE</a></button>
+                </div>
+
+        </div> <!--class=title-->
+
+        <div class="mainpage">
+            <img class="flower" >
+            <p class="maintitle">CHARLOTTE McCOY</p>
+            <p class="subtitle">___ WEDDING PHOTOGRAPHY ￣</p>            
+        </div> <!--class=mainpage-->
+
+        </div> <!--class=mainpage-->
+
+        <section>
+            <div class="leftDisplay">
+                
+            </div> <!--class=leftDisplay-->
+
+            <div class="rightDisplay">                
+                <p class="abouttitle">About Me</p>
+                <p class="dash">____</p>
+                <div class="maindescribe">
+                    <p>I'm a paragraph. Click here to add your own text and edit me.</p>         
+                    <p>It’s easy. Just click “Edit Text” or double click me to add your own </p>
+                    <p>content and make changes to the font.</p> 
+                    <p>Feel free to drag and drop me anywhere you like on your page.</p> 
+                    <p>I’m a great place for you to tell a story and let your users know a little more about you.</p><br>
+
+                    <p>This is a great space to write long text about your company and your services.</p>
+                    <p> You can use this space to go into a little more detail about your company.</p><br>   
+
+                    <p>Talk about your team and what services you provide.</p>
+                    <p>Tell your visitors the story of how you came up with </p>
+                    <p>the idea for your business and what makes you different from your competitors. </p>
+                    <p> Make your company stand out and show your visitors who you are.</p>     
+
+                </div> <!--class=maindescribe-->
+
+        </section>
+
+        <div class="picrow">
+            <div class="pic1"></div>
+            <div class="pic2"></div>
+            <div class="pic3"></div>
+            <div class="pic4"></div>
+        </div> <!--class=picrow-->
+
+        <div class="picrow">
+            <div class="pic1"></div>
+            <div class="pic2"></div>
+            <div class="pic3"></div>
+            <div class="pic4"></div>
+        </div> <!--class=picrow-->
+
+        <div class="picrow">
+            <div class="pic1"></div>
+            <div class="pic2"></div>
+            <div class="pic3"></div>
+            <div class="pic4"></div>
+        </div> <!--class=picrow-->
+        
+        <div class="mainpage2">
+            <div class="word">
+                <br><br><br><br><br>
+                <p>"Capturing the moments</p> 
+                <p>of today that will wow</p>
+                <p>your heart tomorrow"</p>
+                <br>
+            </div> <!--class=word-->
+        </div> <!--class=mainpage2-->
+
+        <section>
+            <div class="displayL">                
+                <div class = "displayLstyle">
+                    <p class="talktitle">Let's talk</p>
+                    <p class="dashtalk">____</p>               
+                    <p>500 Terry Francois St. </p>
+                    <p class="p2">San Francisco, CA 94158</p>
+                    <p class="p3">Tel: 123-456-7890 </p>
+                    <p class="p4">info@mysite.com</p>            
+                
+                    <input  class="contactName" size=30px type="text" placeholder="Name"></input><br>            
+                    <input class="contactEmail" size=30px type="email" placeholder="Email"></input><br>
+                    <input class="contactSubject" size=30px type="text" placeholder="Subject"></input><br>           
+                    <input size=30px class="contactMessage" type="text" placeholder="Message"></input><br>
+                    <button class="sendbtn" type="button" >send</button>             
+                </div> <!--class=displayLstyle-->
+            </div> <!--class=displayL-->
+
+            <div class="displayR">
+                    
+            </div> <!--class=displayR-->
+
+            
+        </section>
+        <div class="bottom">
+            <div id="gotop">˄</div>
+        </div>
+        
+    </body>
+<script type="text/javascript">
+$(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+</html>

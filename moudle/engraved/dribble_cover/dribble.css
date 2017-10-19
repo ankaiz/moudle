@@ -1,0 +1,211 @@
+.head{
+    background: url("trademark.jpg");    
+    display: flex;
+    height: 11.5%;
+    width: 7.5%;
+    margin-left: 80px;        
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 15%;
+  margin-top: 0px;
+  padding: 0;
+  padding: 10px;  
+}
+
+ul li {
+  padding: 5px 10px;  
+  color: gray;  
+  margin: 15px;
+}
+
+ul li a {
+  color: gray;
+  text-decoration: none;
+  transition: color ease-in-out .3s;
+}
+
+ul li a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color:black;
+}
+
+.searchinput{
+    margin-top: 20px;
+    position: absolute;
+    right: 9.2%;
+    display: flex;    
+    padding-bottom:4px;
+    border: 0px;    
+    border-bottom: 2px solid black;
+}
+
+.searchbtn{
+    background: url("searchbutton.png");
+    margin-top: 20px;
+    position: absolute;
+    right: 9%;
+    top:6.2%;    
+    width:40px;
+    height:30px;
+    background-size: cover;
+    border: 0px;    
+}
+
+.mainpage{
+    background: url("mainpage.jpg");   
+    text-align: center;
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 100px;
+    border: 2px solid black;
+}
+
+section{
+    display: flex;
+}
+
+section .itemLeft{
+    flex: 1;
+    background: url("item.jpg");   
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 150px;
+    border: 1px solid black;
+}
+
+section .itemRight{
+    margin-left: 50px;
+    flex: 1;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 200px;    
+    word-break:break-all
+}
+
+.bigfont{
+    font-size: 30px;    
+    margin-top: 50px;
+}
+
+.smallfont{
+    font-size: 15px;    
+    
+}
+
+.price{
+    display: flex;
+    margin-top: 200px;
+    word-break:break-all
+}
+
+.ori{
+    flex: 1;
+    color: gray;
+    font-size: 20px;
+    margin-top: 50px;
+    word-break:break-all
+}
+
+.discount{
+    flex: 1;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    margin-top: 50px;
+    word-break:break-all
+}
+
+.buyit{
+    position: absolute;
+    left: 54%;
+    background: url("addincart.jpg");
+    width: 200px;
+    height: 6%;
+    background-size: cover;    
+    }
+
+section .displayLeft{
+    margin-top: 150px;
+    margin-left: 80px;
+    flex: 1;        
+    word-break:break-all
+}
+
+section .displayRight{
+    flex: 1;
+    background: url("disright.jpg");
+    background-size: cover;
+    height: 410px;
+    width: 80px;  
+    text-align: center;   
+    margin-top: 100px;   
+    margin-right: 100px;
+    margin-left: 80px;
+    border: 2px solid black;
+}
+
+.middledescribe1{
+    margin-top: 50px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.video{        
+    width:85%;
+    height:70%;
+    display: flex;
+    /*text-align: center;*/    /* doesn't work*/
+    margin-left:80px;
+    margin-top: 50px;
+}
+
+.middledescribebig{
+    margin-top: 50px;
+    text-align: center;
+    word-break: break-all;
+    font-size: 30px;
+}
+
+.middledescribesmall{    
+    text-align: center;
+    word-break: break-all;    
+}
+
+.inputinfor{        
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 550px;
+    top:20px;  
+    vertical-align: middle;  
+}    
+
+.btninfor{
+    background: url("hangout.jpg");    
+    background-size: cover;    
+    position: relative;
+    top:0px;  
+    margin: 0px;
+    padding: 0px;
+    width: 49px;
+    height: 21px;
+    margin-left: 723px;
+    margin-top: 0px;    
+    vertical-align: middle;  
+}

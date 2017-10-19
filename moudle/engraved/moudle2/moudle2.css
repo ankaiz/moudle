@@ -1,0 +1,151 @@
+.title{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background: #7700BB;
+    width: 100%;
+    height: 5%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logobtn{    
+    background: url("index.jpg");
+    background-size: cover;
+    background-color: #7700BB;
+    width: 30px;
+    height: 25px;        
+    border: 0px;
+    margin-left: 150px;
+    margin-top: 8px;    
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btnstyle{
+    margin-left: 200px;
+    margin-top: 12px;
+    display: flex;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.selectbtn{
+    width: 30px;
+    height: 25px;    
+    color: white;
+    font-size: 5px;
+    border: 0px;    
+    margin:20px;
+    margin-top: 0px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchrow{
+    background: url("mark.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: 0px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchbar{
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchbtn{
+    width:100px;
+    height: 30px;
+    margin-left: 455px;
+    margin-top:-30px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section{
+    display: flex;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.email{
+    background: url("email.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 50px;
+    border: 0px;
+    margin-left: 600px;
+    margin-top:-40px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.emailtext{
+    margin-left: 670px;
+    margin-top:-15px;
+    width: 60px;
+    height: 50px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.displayleft{
+    flex: 2;
+    margin-left: 100px;    
+    margin-top:20px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.leftitem{
+    display: flex;
+    margin: 20px;
+    color: gray;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.displaycenter{
+    flex: 1;
+}
+
+.displayright{
+    flex: 1;
+}
+
+.displayleft a{
+    color: blue;    
+    transition: color ease-in-out .3s;
+}
+
+.displayleft a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.displayleft a:hover {
+    color:gray;
+}
+

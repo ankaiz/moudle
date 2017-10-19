@@ -1,0 +1,103 @@
+.title{
+    text-align: center;
+    color:orange;
+    font-size: 35px;
+}
+
+.context{
+    border: black 2px solid;     
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+.searchButton{
+    position: absolute;
+    right: 3%;
+    width: 70px;
+    height: 20px;    
+}
+
+.search{
+    position: absolute;
+    right: 8.5%;
+}
+
+nav{        
+    margin: 5px 5px;    
+    padding: 4px 4px;    
+    
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;    
+    padding: 2px 2px;
+    margin: 4px 4px;        
+}
+
+ul li{        
+    position: absolute;
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    font-weight: lighter;
+    border: 2px solid black;        
+}
+
+.item{
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    position: absolute;
+    left: 10%;
+    border-right: 2px solid black;
+}
+
+.quantity{
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    position: absolute;
+    left: 20%;
+    border-right: 2px solid black;
+}
+
+.date{
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    position: absolute;
+    left: 35%;
+    border-right: 2px solid black;
+}
+
+.schedule{
+    margin: 2px 2px;
+    padding: 5px 5px;    
+    position: absolute;
+    left: 55%;    
+    border-right: 2px solid black;
+}
+
+.remark{    
+    margin: 2px 2px;
+    padding: 5px 5px;        
+    position: absolute;        
+    right: 1%;  
+    border-right: 2px solid black;
+}
+
+.table{
+    border: 2px solid black;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+

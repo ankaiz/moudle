@@ -1,0 +1,63 @@
+
+.background{
+   
+    background:url("cat.jpg");
+    background-size:cover;
+    height: 100%;
+     background-repeat: none;
+}
+ .title{    
+    left: 45%;
+    top: 45%;
+    text-align: center;
+    width: 100%;    
+    color: blue;
+    font-size: 50px;
+}
+nav{    
+    width: 100%;
+    margin: 5px 5px;    
+    padding: 4px 4px;
+    color: red;
+    background: black;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.blank{
+    padding:350px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;    
+    padding: 2px 2px;
+    margin: 4px 4px;
+    
+}
+ul li{        
+    margin: 2px 2px;
+    padding: 5px 5px;
+    border-right: 2px solid gray;
+    font-weight: lighter;
+}
+
+footer{    
+    text-align: left;
+    padding: 20px;
+    background:white;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color ease-in-out .3s;
+}
+
+ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #999;
+}
